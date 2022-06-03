@@ -370,7 +370,7 @@ class Store {
         })
     }
 
-    // Note the star, this a generator function!
+    // Note the star, this is a generator function!
     *fetchProjects() {
         this.githubProjects = []
         this.state = "pending"
